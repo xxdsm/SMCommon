@@ -6,4 +6,10 @@ package com.qs.screen.SMCommon.ld;
 public class LDRegInfo {
 	public String serial_no;
 	public String mac;
+	public String getSerial_no() {
+		return serial_no == null?"":serial_no;
+	}
+	public String getMac() {
+		return mac == null?"":mac;
+	}
 }
