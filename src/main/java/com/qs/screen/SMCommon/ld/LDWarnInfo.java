@@ -6,5 +6,6 @@ package com.qs.screen.SMCommon.ld;
 public class LDWarnInfo {
 	public int rmd_id;
 	public int warn_type;
+	public int level;
 	public String msg;
 }
