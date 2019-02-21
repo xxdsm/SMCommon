@@ -13,4 +13,13 @@ public class LDInitInfo implements Serializable {
 	public String areacode;
 	public int com_id;
 	public int liv_id;
+	
+	@Override
+	public boolean equals(Object obj) {
+		if(!(obj instanceof LDInitInfo)) return false;
+		LDInitInfo eqInfo = (LDInitInfo) obj;
+		if(this.user != null && !this.user.equals(eqInfo.user)) return false;
+		if(this.areacode != null && !this.areacode.equals(eqInfo.areacode)) return false;
+		return this.com_id == eqInfo.com_id && this.liv_id == eqInfo.liv_id;
+	}
 }
