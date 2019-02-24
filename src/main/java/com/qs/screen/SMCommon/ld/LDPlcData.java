@@ -13,6 +13,10 @@ public class LDPlcData {
 	 */
 	public float elec;
 	/**
+	 * 电压
+	 */
+	public float volt;
+	/**
 	 * lcd屏，1为开
 	 */
 	public int lcd_on;
