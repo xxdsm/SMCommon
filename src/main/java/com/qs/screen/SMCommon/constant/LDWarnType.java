@@ -53,8 +53,4 @@ public interface LDWarnType {
 	 * 设备振动告警
 	 */
 	int WARN_TYPE_VIBRATE=11;
-	/**
-	 * 设备照明
-	 */
-	int WARN_TYPE_LIGHT=12;
 }
