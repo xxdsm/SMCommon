@@ -8,4 +8,5 @@ public interface LDStateName {
 	String STATE_LIGHT_ON = "light_on";
 	String STATE_FAN_ON = "fan_on";
 	String STATE_LOCK = "lock";
+	String STATE_DEV_ONLINE = "dev_online";
 }

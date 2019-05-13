@@ -2,7 +2,7 @@ package com.qs.screen.SMCommon.ld;
 
 import java.io.Serializable;
 
-import com.qs.screen.SMCommon.SMUser;
+import com.qs.screen.SMCommon.bean.SMUser;
 
 /**
  *设备初始化配置信息

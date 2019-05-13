@@ -1,4 +1,4 @@
-package com.qs.screen.SMCommon;
+package com.qs.screen.SMCommon.bean;
 
 /**
  *用户信息
